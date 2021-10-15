@@ -1,7 +1,4 @@
-function timer() {
-    //Timer
-
-    const deadLine = '2021-10-20T10:00:00';
+function timer(id, deadLine) {
 
     function getZero(num) {
         if (num >= 0 && num < 10) {
@@ -52,7 +49,7 @@ function timer() {
         }
     }
 
-    setClock('.timer', deadLine);
+    setClock(id, deadLine);
 }
 
 export default timer;
