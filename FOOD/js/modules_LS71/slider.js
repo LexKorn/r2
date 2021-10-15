@@ -154,4 +154,4 @@ function slider() {
     });
 }
 
-export default slider;
+module.exports = slider;
