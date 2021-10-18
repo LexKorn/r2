@@ -8,7 +8,25 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 0.1%",
+    "ie 11"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.18.3",
     "json-server": "^0.16.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@riim/object-entries-polyfill": "^1.0.0",
+    "es6-promise": "^4.2.8",
+    "es7-object-polyfill": "^1.0.1",
+    "fetch-polyfill": "^0.8.2",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "object.entries-ponyfill": "^1.0.1"
   }
 }

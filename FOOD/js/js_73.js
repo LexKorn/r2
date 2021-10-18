@@ -1,3 +1,7 @@
+require('es6-promise').polyfill();
+import 'nodelist-foreach-polyfill';
+require ('es7-object-polyfill');
+
 import tabs from './modules/tabs';
 import calc from './modules/calc';
 import cards from './modules/cards';
